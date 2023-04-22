@@ -8,74 +8,146 @@
 
 .normal {
     background-color: #a6a877;
+    transition: .5s;
+}
+.normal:hover {
+    background-color: #8f913a;
 }
 
 .grass {
     background-color: #77c850;
+    transition: .5s;
+}
+.grass:hover {
+    background-color: #609610;
 }
 
 .fire {
     background-color: #ee7f30;
+    transition: .5s;
+}
+.fire:hover {
+    background-color: #bd6526;
 }
 
 .water {
     background-color: #678fee;
+    transition: .5s;
+}
+.water:hover {
+    background-color: #4365c5;
 }
 
 .electric {
     background-color: #f7cf2e;
+    transition: .5s;
+}
+.eletric:hover {
+    background-color: #cead19;
 }
 
 .ice {
     background-color: #98d5d7;
+    transition: .5s;
+}
+.ice:hover {
+    background-color: #70b5b8;
 }
 
 .ground {
     background-color: #dfbf69;
+    transition: .5s;
+}
+.fire:hover {
+    background-color: #b69b38;
 }
 
 .flying {
     background-color: #a98ff0;
+    transition: .5s;
+}
+.flying:hover {
+    background-color: #9084da;
 }
 
 .poison {
     background-color: #a040a0;
+    transition: .5s;
+}
+.poison:hover {
+    background-color: #8c3296;
 }
 
 .fighting {
     background-color: #bf3029;
+    transition: .5s;
+}
+.fighting:hover {
+    background-color: #a03428;
 }
 
 .psychic {
     background-color: #f65687;
+    transition: .5s;
+}
+.psychic:hover {
+    background-color: #9e2d4f;
 }
 
 .dark {
     background-color: #725847;
+    transition: .5s;
+}
+.dark:hover {
+    background-color: #694730;
 }
 
 .rock {
     background-color: #b8a137;
+    transition: .5s;
+}
+.rock:hover {
+    background-color: #978222;
 }
 
 .bug {
     background-color: #a8b720;
+    transition: .5s;
+}
+.bug:hover {
+    background-color: #9aa72e;
 }
 
 .ghost {
     background-color: #6e5896;
+    transition: .5s;
+}
+.ghost:hover {
+    background-color: #5d3e96;
 }
 
 .steel {
     background-color: #b9b7cf;
+    transition: .5s;
+}
+.steel:hover {
+    background-color: #948ece;
 }
 
 .dragon {
     background-color: #6f38f6;
+    transition: .5s;
+}
+.dragon:hover {
+    background-color: #4e21be;
 }
 
 .fairy {
     background-color: #f9aec7;
+    transition: .5s;
+}
+.fairy:hover {
+    background-color: #e68daa;
 }
 
 .pokemon {
@@ -144,6 +216,10 @@
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
+    transition: .5s;
+}
+.pagination button:hover {
+    background-color: #313fa7;
 }
 
 @media screen and (min-width: 380px) {
