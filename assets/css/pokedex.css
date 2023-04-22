@@ -27,7 +27,7 @@
     transition: .5s;
 }
 .fire:hover {
-    background-color: #bd6526;
+    background-color: #df6610;
 }
 
 .water {
@@ -43,7 +43,7 @@
     transition: .5s;
 }
 .eletric:hover {
-    background-color: #cead19;
+    background-color: #977e0f;
 }
 
 .ice {

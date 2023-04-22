@@ -7,7 +7,7 @@ let offset = 0;
 
 function convertPokemonToLi(pokemon) {
     return `
-        <li class="pokemon ${pokemon.type}">
+        <li id=${pokemon.number} class="pokemon ${pokemon.type}">
             <span class="number">#${pokemon.number}</span>
             <span class="name">${pokemon.name}</span>
 
@@ -23,6 +23,8 @@ function convertPokemonToLi(pokemon) {
     `
 }
 
+
+
 function loadPokemonItens(offset, limit) {
     pokeApi.getPokemons(offset, limit).then((pokemons = []) => {
         const newHtml = pokemons.map(convertPokemonToLi).join('')
@@ -31,6 +33,21 @@ function loadPokemonItens(offset, limit) {
 }
 
 loadPokemonItens(offset, limit)
+
+const pokeId = "1"
+
+async function loadPokeDetails(urlDetail) {
+
+    const url = `https://pokeapi.co/api/v2/stat/${pokeId}`
+
+    return await fetch(url)
+        .then((response) => response.json())
+            
+    
+}
+
+console.log("eueu",loadPokeDetails(pokeId))
+
 
 loadMoreButton.addEventListener('click', () => {
     offset += limit
