@@ -34,19 +34,7 @@ function loadPokemonItens(offset, limit) {
 
 loadPokemonItens(offset, limit)
 
-const pokeId = "1"
 
-async function loadPokeDetails(urlDetail) {
-
-    const url = `https://pokeapi.co/api/v2/stat/${pokeId}`
-
-    return await fetch(url)
-        .then((response) => response.json())
-            
-    
-}
-
-console.log("eueu",loadPokeDetails(pokeId))
 
 
 loadMoreButton.addEventListener('click', () => {
